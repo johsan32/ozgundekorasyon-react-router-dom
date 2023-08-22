@@ -18,11 +18,11 @@ function App() {
     <>
       <div className="container m-auto  flex items-center justify-between ">
         <div className="flex items-center gap-4">
-          <h4 className="flex items-center font-medium lg:hidden text-sm text-white ps-2 py-1">
+          <h4 className="flex items-center font-medium lg:hidden text-xs lg:text-md text-white ps-2 py-1">
             <img className="w-8 h-8 rounded-lg me-2 py-1" src={Logo}></img>{" "}
             Özgün Dekorasyon
           </h4>
-          <div className="flex items-center gap-2 max-lg:ps-2 max-lg:text-xs text-white ps-3">
+          <div className="flex items-center gap-2 lg:ps-2 text-[10px] lg:text-md text-white ps-3">
             <span>
               <BsFillTelephoneFill className="text-green-500" />
             </span>
@@ -65,3 +65,4 @@ function App() {
 }
 
 export default App;
+
